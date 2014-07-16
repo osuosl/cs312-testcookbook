@@ -1,0 +1,10 @@
+name             'osl-testcookbook'
+maintainer       'Oregon State University'
+maintainer_email 'cookbooks@osuosl.org'
+license          'Apache 2.0'
+description      'Installs/Configures osl-testcookbook'
+long_description 'Installs/Configures osl-testcookbook'
+version          '0.1.0'
+
+depends          'iptables-ng'
+depends          'nginx'
