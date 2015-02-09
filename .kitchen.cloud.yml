@@ -22,12 +22,12 @@ platforms:
   driver_plugin: openstack
   driver_config:
     username: centos
-    image_ref: "cs312"
+    image_ref: "CentOS 6.6"
 
 suites:
   - name: default
     run_list:
-      - recipe[osl-testcookbook::default]
+      - recipe[cs312-testcookbook::default]
   - name: wiki
     run_list:
-      - recipe[osl-testcookbook::wiki]
+      - recipe[cs312-testcookbook::wiki]

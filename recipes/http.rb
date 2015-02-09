@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: osl-testcookbook
+# Cookbook Name:: cs312-testcookbook
 # Recipe:: default
 #
 # Copyright (C) 2014 Oregon State University
