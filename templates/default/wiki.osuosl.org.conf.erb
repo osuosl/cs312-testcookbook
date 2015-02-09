@@ -3,7 +3,7 @@ server {
     server_name 'wiki.osuosl.org';
 
     location / {
-        root <%= ::File.join(node['osl-testcookbook']['wiki-webroot'], "build/html")%>;
+        root <%= ::File.join(node['cs312-testcookbook']['wiki-webroot'], "build/html") %>;
         index index.html;
     }
 }
