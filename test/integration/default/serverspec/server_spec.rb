@@ -1,7 +1,6 @@
 require 'serverspec'
 
-include Serverspec::Helper::Exec
-include Serverspec::Helper::DetectOS
+set :backend, :exec
 
 %w[ vim-enhanced curl wget git bind-utils ].each do |p|
   describe package(p) do
