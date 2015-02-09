@@ -26,7 +26,7 @@ iptables_ng_rule 'accept_http' do
 end
 
 iptables_ng_rule 'http' do
-    rule ['--protocol tcp --destination-port 80 --jump ACCEPT',
+    rule ['--protocol tcp --destination-port 8080 --jump ACCEPT',
           '--protocol tcp --destination-port 443 --jump ACCEPT']
     chain 'http'
 end
