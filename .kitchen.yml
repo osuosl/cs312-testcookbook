@@ -14,10 +14,10 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[osl-testcookbook::default]
+      - recipe[cs312-testcookbook::default]
   - name: wiki
     run_list:
-      - recipe[osl-testcookbook::wiki]
+      - recipe[cs312-testcookbook::wiki]
     driver_config:
       network:
         - ["forwarded_port", {guest: 8080, host: 8080}]
