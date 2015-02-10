@@ -1,9 +1,9 @@
-name             'osl-testcookbook'
+name             'cs312-testcookbook'
 maintainer       'Oregon State University'
 maintainer_email 'cookbooks@osuosl.org'
 license          'Apache 2.0'
-description      'Installs/Configures osl-testcookbook'
-long_description 'Installs/Configures osl-testcookbook'
+description      'Installs/Configures cs312-testcookbook'
+long_description 'Installs/Configures cs312-testcookbook'
 version          '0.1.0'
 
 depends          'iptables-ng'
