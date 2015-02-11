@@ -8,3 +8,5 @@ version          '0.1.0'
 
 depends          'iptables-ng'
 depends          'nginx'
+depends          'python'
+depends          'yum-epel'
